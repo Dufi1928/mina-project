@@ -1,0 +1,369 @@
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    width: 100%;
+    display: block;
+    height: 150px;
+    padding: 15px;
+    background: #967E76;
+}
+
+.metaphore {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+
+    &-block {
+        font-size: 30px;
+        font-family: 'Gabriola';
+        color: #F3E8D4;
+        display: flex;
+        z-index: 0;
+        height: 65%;
+        width: 90%;
+        justify-content: center;
+    }
+
+    &-txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 15px;
+        margin-right: 15px;
+
+        &-p {
+            display: flex;
+            font-size: 2.3rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+    }
+
+
+    .linet {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        margin-bottom: 10px;
+
+        &-top {
+            width: 85%;
+            height: 3px;
+            background: #F3E8D4;
+            z-index: 1;
+            margin-left: -5px;
+
+
+        }
+
+    }
+
+    .lineb {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: right;
+
+        &-bottom {
+            width: 85%;
+            height: 3px;
+            background: #F3E8D4;
+            z-index: 1;
+            margin-right: -5px;
+
+
+        }
+
+    }
+
+
+
+
+    &-gimmai-l {
+        display: flex;
+        align-items: flex-start;
+
+        img {
+            height: 80px;
+            width: 80px;
+        }
+    }
+
+    &-gimmai-r {
+        display: flex;
+        align-items: flex-end;
+
+        img {
+            height: 80px;
+            width: 80px;
+            transform: rotate(180deg);
+        }
+    }
+
+}
+
+.container {
+    margin-top: 25px;
+}
+
+.img-left {
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-content {
+    padding-top: 50px;
+}
+
+.img-1 {
+    width: 480px;
+    height: 564px;
+    display: block;
+    margin-top: 35px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+
+    img {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+.img-2 {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+
+
+
+    img {
+        margin-top: 20px;
+        width: 500px;
+        height: 688px;
+        border-radius: 10px;
+        object-fit: cover;
+        display: flex;
+        justify-content: right;
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+
+.txt {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: justify;
+    align-items: flex-start;
+
+    h1 {
+        margin-top: 20px;
+        font-family: 'Segoe Script';
+        font-size: 50px;
+        margin-bottom: 50px;
+
+    }
+
+    &-part2 {
+        margin-top: 40px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 95%;
+        text-align: justify;
+    }
+}
+
+.footer {
+    background: #967E76;
+    margin-top: 100px;
+    height: 200px;
+    width: 100%;
+}
+
+//responcive 
+@media (max-width: 1130px) {
+    .metaphore {
+        &-txt-p {
+            font-size: 30px;
+
+        }
+
+        &-gimmai-l {
+            img {
+                height: 60px;
+                width: 60px;
+            }
+
+        }
+
+        &-gimmai-r {
+            img {
+                width: 60px;
+                height: 60px;
+            }
+
+        }
+    }
+
+    .linet-top {
+        width: 95%;
+        height: 2px;
+    }
+
+    .lineb-bottom {
+        width: 95%;
+        height: 2px;
+
+
+    }
+
+}
+
+@media(max-width: 835px) {
+    .metaphore {
+        &-txt-p {
+            font-size: 25px;
+            line-height: 1;
+
+        }
+
+        &-gimmai-l {
+            img {
+                height: 55px;
+                width: 55px;
+            }
+
+        }
+
+        &-gimmai-r {
+            img {
+                width: 50px;
+                height: 60px;
+            }
+
+        }
+    }
+
+}
+
+@media (max-width: 692px) {
+    .metaphore {
+        &-txt-p {
+            font-size: 25px;
+            line-height: 1;
+            text-align: center;
+        }
+
+        &-gimmai-l {
+            img {
+                height: 55px;
+                width: 55px;
+            }
+
+        }
+
+        &-gimmai-r {
+            img {
+                width: 55px;
+                height: 55px;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .metaphore {
+        &-txt-p {
+            font-size: 25px;
+            line-height: 1;
+
+        }
+
+        &-gimmai-l {
+            img {
+                height: 40px;
+                width: 40px;
+            }
+
+        }
+
+        &-gimmai-r {
+            img {
+                width: 40px;
+                height: 40px;
+            }
+
+        }
+    }
+
+}
+
+@media (max-width: 442px) {
+    .metaphore {
+        &-txt-p {
+            font-size: 18px;
+            line-height: 1;
+
+        }
+
+        &-gimmai-l {
+            img {
+                height: 30px;
+                width: 30px;
+            }
+
+        }
+
+        &-gimmai-r {
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+
+    .linet {
+        margin-bottom: 7px;
+
+        &-top {
+            width: 95%;
+            height: 33px;
+
+
+        }
+
+    }
+
+    .lineb {
+        margin-top: 7px;
+
+        &-bottom {
+            width: 95%;
+            height: 33px;
+
+
+        }
+
+    }
+}

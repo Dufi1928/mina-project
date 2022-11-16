@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="quotes" transform="translate(-195 -532)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="40" cy="40" r="40" transform="translate(195 532)" fill="#f3e8d4"/>
+    <path id="Icon_open-double-quote-serif-right" data-name="Icon open-double-quote-serif-right" d="M0,0C-3.375,3.375-2.25,10.125,0,13.5s9,0,9,0a8.969,8.969,0,0,1-9,9V27c7.425,0,10.125-4.75,13.5-11.5S16.875,3.375,13.5,0,3.375-3.375,0,0ZM22.5,0c-3.375,3.375-2.25,10.125,0,13.5s9,0,9,0a8.969,8.969,0,0,1-9,9V27c7.425,0,10.125-4.75,13.5-11.5S39.375,3.375,36,0,25.875-3.375,22.5,0Z" transform="translate(252.685 584.234) rotate(180)" fill="#967e76"/>
+  </g>
+</svg>
