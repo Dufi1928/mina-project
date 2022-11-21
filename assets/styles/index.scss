@@ -1,3 +1,4 @@
+
 p {
     padding: 0;
     margin: 0;
@@ -83,9 +84,6 @@ p {
 
     }
 
-
-
-
     &-gimmai-l {
         display: flex;
         align-items: flex-start;
@@ -109,94 +107,94 @@ p {
 
 }
 
-.container {
-    margin-top: 25px;
-}
 
-.img-left {
-    display: flex;
-    justify-content: center;
-}
-
-.conteiner-content {
-    padding-top: 50px;
-}
-
-.img-1 {
-    width: 480px;
-    height: 564px;
-    display: block;
-    margin-top: 35px;
-    overflow: hidden;
+//start section-content
+.section{
     display: flex;
     justify-content: center;
 
-
-    img {
+    &_content{
         display: flex;
         justify-content: center;
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-        object-fit: cover;
-        box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+        align-items: center;
 
     }
-}
-
-.img-2 {
-    width: 100%;
-    display: flex;
-    justify-content: right;
-    align-items: flex-start;
-
-
-
-    img {
+    &_all{
         margin-top: 20px;
-        width: 500px;
-        height: 688px;
-        border-radius: 10px;
-        object-fit: cover;
-        display: flex;
-        justify-content: right;
-        box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
-    }
-}
+        width: 90%;
+        max-width: 1300px;
 
-
-
-.txt {
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    text-align: justify;
-    align-items: flex-start;
-
-    h1 {
-        margin-top: 20px;
-        font-family: 'Segoe Script';
-        font-size: 50px;
-        margin-bottom: 50px;
-
-    }
-
-    &-part2 {
-        margin-top: 40px;
-        font-size: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 95%;
-        text-align: justify;
+        align-items: center;
+    }
+
+    &_part {
+        margin-top: 30px;
+        width: 100%;
+        margin-bottom: 20px;
+
+
+        p{
+            font-size:23px ;
+            text-align: justify;
+
+        }
+        h1{
+            color: #443F3E;
+            font-weight: bold;
+            font-size: 40px;
+            font-family: Segoe Script;
+        }
+    }
+
+
+    &_img{
+        max-width: 40%;
+        float: left;
+        margin-right: 20px;
+        overflow: hidden;
+        border-radius: 20px;
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+
+
+
+        }
+    }
+
+    &_img_1{
+        max-width: 40%;
+        float: right;
+        margin-left: 30px;
+        overflow: hidden;
+        border-radius: 20px;
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+
+
+
+        }
     }
 }
+
+
+
+// And Section content
+
+
 
 .footer {
     background: #967E76;
     margin-top: 100px;
-    height: 200px;
+    height: 190px;
     width: 100%;
 }
 
@@ -237,9 +235,10 @@ p {
 
     }
 
+
 }
 
-@media(max-width: 835px) {
+@media(max-width: 965px) {
     .metaphore {
         &-txt-p {
             font-size: 25px;
@@ -263,6 +262,65 @@ p {
 
         }
     }
+
+
+}
+
+@media(max-width: 835px) {
+
+    .section{
+
+        &_part {
+            p{
+                font-size:16px ;
+                text-align: justify;
+
+            }
+            h1{
+                font-size: 35px;
+                font-family: Segoe Script;
+            }
+        }
+    }
+
+
+
+
+
+    .metaphore {
+        &-txt-p {
+            font-size: 25px;
+            line-height: 1;
+
+        }
+
+        &-gimmai-l {
+            img {
+                height: 55px;
+                width: 55px;
+            }
+
+        }
+
+        &-gimmai-r {
+            img {
+                width: 50px;
+                height: 60px;
+            }
+
+        }
+    }
+    .description {
+
+        p{
+            font-size: 14px;
+        }
+
+
+
+
+    }
+
 
 }
 
