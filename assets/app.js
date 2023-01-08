@@ -6,14 +6,8 @@
  */
 
 // any CSS you import will output into a single css file (app.css in this case)
-import './styles/app.scss';
-import './styles/index.scss'
 
 
 // start the Stimulus application
 import './bootstrap';
 
-alert("Привет, мир!");
-let sum = 44;
-console.log(sum);   // 44
-console.log('hello')

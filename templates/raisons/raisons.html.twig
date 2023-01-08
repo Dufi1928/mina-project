@@ -1,0 +1,357 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello RaisonsController!{% endblock %}
+
+{% block body %}
+{# Осталось добавить картинки в респонсиве а так все ОК #}
+
+    <link rel="stylesheet" href="{{ asset('build/raisons.css') }}">
+
+<div class="container">
+    <div id="header">
+        <h3>Quand et pourquoi faire appel à un ostéopathe ?</h3>
+    </div>
+
+    <!--First card description start -->
+    <div class="item_general">
+            <div class="item_general_description">
+                <div class="item_general_description_txt">
+                    <p>
+                        L’ostéopathie peut intervenir dans de nombreux cas, de manière préventive (donc régulièrement) afin d’éviter ou d’accompagner au mieux toute altération de santé (mieux vaut prévenir que guérir !) mais également de manière curative en agissant sur les causes des différents dysfonctionnements et troubles relevés, à la suite d’une perte de mobilité, d’une blessure ou pour une récupération optimale.
+                    </p>
+                    <p>
+                        Que votre animal soit ou non un sportif, jeune ou plus âgé, un suivi régulier chaque année est bénéfique au maintien de son intégrité physique mais aussi émotionnelle, tout comme nous !
+                        Un ostéopathe peut intervenir en urgence mais il est nécessaire d’identifier ce qui pourrait être une urgence relative ou absolue relevant cette fois-ci du champs de compétence d’un vétérinaire, puisque non, une consultation ostéopathique ne remplace pas celle d’un vétérinaire.
+                    </p>
+                    <p>
+                        Concrètement, une urgence absolue est une urgence où le pronostic vital de l’animal est engagé et nécessite une prise en charge vétérinaire très rapidement. Une urgence relative est une urgence mais cette fois-ci, le pronostic vital n’est pas engagé. Ces deux cas nécessitent l’intervention d’un vétérinaire et non d’un ostéopathe.
+                        Pour ce faire, il est nécessaire d’identifier les signes de détresse qui permettront de faire appel au professionnel adapté et ainsi gagner un temps précieux. Parmi eux, on retrouve ces quelques signes (liste non exhaustive) :
+                    </p>
+                    <ul class="more">
+                            <li>Distension (gonflement) de la cavité thoracique/abdominale</li>
+                            <li>Dégradation rapide de l’état général</li>
+                            <li>Vomissements et/ou efforts vomitifs improductifs</li>
+                            <li>Absence de selles</li>
+                            <li>Suspicion de coliques (cheval qui se regarde le flanc, se gratte, se couche et se roule sans cesse, tourne en rond, se frappe l’abdomen avec ses postérieurs, urine en position de chien assis, présente une sudation excessive…)</li>
+                            <li>Abattement, léthargie</li>
+                            <li>Changement radical de comportement</li>
+                            <li>Troubles de l’équilibre et de la posture</li>
+                            <li>Déshydratation (à évaluer par un pincement de la peau du cou)</li>
+                            <li>Boiterie sévère et/ou démarche à 3 pattes (ne pose plus du tout)</li>
+                            <li>Diarrhée aigue </li>
+                            <li>Difficultés de mise bas</li>
+                        </ul>
+                    <i  class="fa-solid fa-circle-chevron-down  icon btn-r "></i>
+                </div>
+            </div>
+    </div>
+    <!--First card description end -->
+
+
+    <div id="header">
+            <h3> L’ostéopathie pour qui ?</h3>
+    </div>
+
+
+    <div class="row justify-content-center content">
+            <div class="col-xl-4 col-md-6 col-sm-12 content_item" >
+                <div class="content_item-inner">
+                    <img src="{{ asset('img/raisons/Sport-chien-BD.png') }}" alt="">
+                    <div class="bg-font">
+
+                    </div>
+                    <div class="bg-txt">
+                        <h2>
+                            Pour les animaux de compagnie
+                        </h2>
+                        <div class="subtitle">
+                            <a class="modal-btn" data-bs-toggle="modal" data-bs-target="#Modal">
+                                <p>Lire la suite</p><i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content_item-inner-sercle">
+                        <img src="{{ asset('img/raisons/1.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 content_item" >
+                <div class="content_item-inner">
+                    <img src="{{ asset('img/raisons/Sport-chien-BD.png') }}" alt="">
+                    <div class="bg-font">
+
+                    </div>
+                    <div class="bg-txt">
+                        <h2>
+                            Pour les animaux sportifs
+                        </h2>
+                        <div class="subtitle">
+                            <a class="modal-btn" data-bs-toggle="modal" data-bs-target="#Modal1">
+                                <p>Lire la suite</p><i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content_item-inner-sercle">
+                        <img src="{{ asset('img/raisons/2.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 content_item" >
+                <div class="content_item-inner">
+                    <img src="{{ asset('img/raisons/Sport-chien-BD.png') }}" alt="">
+                    <div class="bg-font">
+
+                    </div>
+                    <div class="bg-txt">
+                        <h2>
+                            Pour les plus jeunes
+                        </h2>
+                        <div class="subtitle">
+                            <a class="modal-btn" data-bs-toggle="modal" data-bs-target="#Modal2">
+                                <p>Lire la suite</p><i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content_item-inner-sercle">
+                        <img src="{{ asset('img/raisons/3.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 content_item" >
+                <div class="content_item-inner">
+                    <img src="{{ asset('img/raisons/Sport-chien-BD.png') }}" alt="">
+                    <div class="bg-font">
+
+                    </div>
+                    <div class="bg-txt">
+                        <h2>
+                            Pour les plus âgés
+                        </h2>
+                        <div class="subtitle">
+                            <a class="modal-btn" data-bs-toggle="modal" data-bs-target="#Modal3">
+                                <p>Lire la suite</p><i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content_item-inner-sercle">
+                        <img src="{{ asset('img/raisons/4.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 content_item" >
+                <div class="content_item-inner">
+                    <img src="{{ asset('img/raisons/Sport-chien-BD.png') }}" alt="">
+                    <div class="bg-font">
+
+                    </div>
+                    <div class="bg-txt">
+                        <h2>
+                            Pour les reproducteurs
+                        </h2>
+                        <div class="subtitle">
+                            <a class="modal-btn" data-bs-toggle="modal" data-bs-target="#Modal4">
+                                <p>Lire la suite</p><i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content_item-inner-sercle">
+                        <img src="{{ asset('img/raisons/5.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 content_item" >
+                <div class="content_item-inner">
+                    <img src="{{ asset('img/raisons/Sport-chien-BD.png') }}" alt="">
+                    <div class="bg-font">
+
+                    </div>
+                    <div class="bg-txt">
+                        <h2>
+                            Pour les animaux de production/rente
+                        </h2>
+                        <div class="subtitle">
+                            <a class="modal-btn" data-bs-toggle="modal" data-bs-target="#Modal5">
+                                <p>Lire la suite</p><i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content_item-inner-sercle">
+                        <img src="{{ asset('img/raisons/6.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</div>
+
+    <!-- Modal start -->
+
+    <div class="modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5  class="modal-title">Pour les animaux de compagnie </h5>
+                    <a type="button"  data-bs-dismiss="modal" aria-label="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Même si votre animal n’est pas un sportif, il est conseillé de lui faire faire une séance au minimum par an. Ses articulations et ses muscles nécessitent d’être en état de santé optimale pour éviter toute dysfonction ostéopathique. Retrouvez les motifs de consultations possibles dans l’onglet « Les motifs de consultation ».
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="Modal" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Pour les animaux de compagnie </h5>
+                    <a type="button"  data-bs-dismiss="modal" aria-label="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Même si votre animal n’est pas un sportif, il est conseillé de lui faire faire une séance au minimum par an. Ses articulations et ses muscles nécessitent d’être en état de santé optimale pour éviter toute dysfonction ostéopathique. Retrouvez les motifs de consultations possibles dans l’onglet « Les motifs de consultation ».
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal end-->
+
+    <!-- Modal1 start-->
+    <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5>Pour les animaux sportifs</h5>
+                <a type="button"  data-bs-dismiss="modal" aria-label="close">
+                    <i class="fa-solid fa-xmark"></i>
+                </a>
+            </div>
+            <div class="modal-body">
+
+                <p>
+                    Le cheval ou le chien sportif est un athlète tout comme l’humain pratiquant une activité sportive et demande donc un suivi régulier. Qu’importe l’activité, elle entraine généralement des sollicitations importantes de son système musculo-squelettique, lui impose de sauter, courir, changer brusquement de direction … Et toute perte de mobilité de ses articulations, ses organes ou ses tissus diminuera ses performances.
+                    <br><br>L’ostéopathie intervient en prévention de blessures ou de dysfonctions pouvant gêner l’animal lors de ses activités sportives. Elle permet par ailleurs de minimiser le risque de blessures, d’apporter du confort, de développer la puissance musculaire, d’améliorer les performances sportives, la souplesse articulaire, la capacité respiratoire, favorise la circulation sanguine et lymphatique pour évacuer les toxines ...
+                    <br><br>L’apport de conseils de la part de l’ostéopathe est également très important notamment pour établir un suivi, un programme de travail ou de rééducation par la suite en fonction de l’animal et des objectifs du propriétaire. Il est intéressant de faire appel à un ostéopathe avant une échéance sportive pour préparer au mieux l’athlète et après pour l’aider à récupérer.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--Modal1 end-->
+
+    <!-- Modal2 start-->
+    <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="Modal2" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Pour les plus jeunes</h5>
+                    <a type="button"  data-bs-dismiss="modal" aria-label="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Les séances d’ostéopathies sont accessibles pour les animaux dès leur plus jeune âge avec des techniques douces et adaptées à chacun d’entre eux.
+                        <br><br>La première séance est préconisée aux alentours de 2 ou 3 mois après la naissance. D’ailleurs, l’ostéopathie est primordiale pour les accompagner en effectuant un suivi de croissance plusieurs fois dans l’année. En effet, la naissance reste un évènement traumatique même si la mise-base semble s’être correctement déroulée.
+                        <br><br>Les séances permettront de :
+                    </p>
+                    <ul>
+                        <li>Libérer toutes les tensions accumulées lors de la gestation, de la mise-bas (et ce, encore plus si elle a été difficile ou longue à aboutir) et des premières semaines de vie</li>
+                        <li> Déceler des douleurs, des contractures musculaires, des restrictions de mobilité précocement et corriger les dysfonctions et les gênes</li>
+                        <li>Corriger précocement des défauts de croissance et d’aplombs dû à une mauvaise posture afin qu’ils ne deviennent acquis avec le temps</li>
+                        <li>Soulager les douleurs et tensions dues à une croissance rapide et/ou difficile</li>
+                        <li>Intervenir rapidement sur des troubles (syndrome du chiot nageur par exemple) et des malformations (prognathisme par exemple)</li>
+                        <li>Relancer la circulation sanguine et lymphatique</li>
+                        <li>Le soulager et le soutenir lors de pathologies avérées</li>
+                    </ul>
+                    <p>
+                        <br>Le suivi ostéopathique de croissance est d’autant plus important chez le cheval qui est mis très tôt au travail. Sa croissance aboutissant aux alentours 8 ans, les contraintes engendrées par le débourrage et le travail sur son squelette, ses tendons, ses muscles ou ses ligaments, peuvent êtres néfastes si un suivi et une préparation correctes ne sont pas mis en place en parallèle.
+                        <br><br>Durant sa croissance, son corps va grandir, se transformer, évoluer et il va se muscler. Il peut également être sujet à de fortes poussées de croissance qui peuvent le mettre à mal. L’ostéopathie permettra de renforcer les performances de votre cheval, lui faire retrouver tout son confort et sa mobilité pour que la suite se passe au mieux pour lui.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal2 end-->
+
+    <!-- Modal3 start-->
+    <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="Modal3" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Pour les plus âgés</h5>
+                    <a type="button"  data-bs-dismiss="modal" aria-label="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Pour les plus vieux d’entre eux, les séances auront les mêmes effets expliqués précédemment mais permettront particulièrement l’apport de confort et de bien-être par des techniques adaptées et douces. En effet, les animaux âgés souffrent souvent d’arthrose ou de diverses pathologies. Les muscles s’atrophient, les articulations sont plus sollicitées et fatiguées, les organes ne travaillent plus aussi bien, ils sont plus sensibles aux agressions extérieures, ils assimilent moins bien les nutriments… L’ostéopathie permettra également de les accompagner au mieux, les soulager vis-à-vis du vieillissement de leurs structures et éviter ou diminuer le risque que certains troubles ou de trop importantes compensations se mettent en place, et les mettent encore plus en difficulté.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal3 end-->
+
+    <!-- Modal4 start-->
+    <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="Modal4" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Pour les reproducteurs </h5>
+                    <a type="button"  data-bs-dismiss="modal" aria-label="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Mâle ou femelle reproducteur, leur corps est également très sollicité.
+                        <br><br>Pour les femelles, la gestation implique de grands changements physiologiques, métaboliques et psychologiques. Elle aura une décharge hormonale plus importante, une sollicitation plus importante de ses muscles et de ses articulations. Toute sa masse viscérale abdominale se trouvera refoulée et pourra être à l’origine de restrictions de mobilité, de troubles posturaux ou de positions antalgiques pouvant perturber le bon développement des petits et provoquer une mise-bas difficile.  En effet, elle devra avoir pleine possession de ses capacités physiques et métaboliques pour arriver au terme sereinement. Pour ce faire, le suivi avant, pendant et après la gestation est très important.
+                        <br><br>Pourquoi avant ? : cela permettra d’optimiser son état général et ses capacités physiques pour l’ovulation et la fécondation. De plus, il est important de s’assurer que l’entièreté de son corps ainsi que les zones qui seront les plus sollicités par la future gestation à savoir l’utérus, les ovaires, le sacrum, le bassin, l’abdomen, le diaphragme, le crâne, le thorax, les lombaires soient souples, élastiques, mobiles et correctement équilibrés. Il sera aussi intéressant de s’assurer du bon fonctionnement du système neuroendocrinien pour que les échanges hormonaux et les sécrétions des diverses glandes puissent avoir lieu.
+                        <br><br>Pourquoi pendant ? : toujours dans le but de s’assurer que la gestation se passe au mieux et libérer rapidement les dysfonctions ostéopathiques pouvant la gêner et perturber la suite.
+                        <br><br>Pourquoi après ? : cela permettra de contrôler son état général et l’aider à récupérer rapidement et de manière optimale, même si tout s’est bien déroulé, car cela reste un évènement traumatique. On s’assurera aussi qu’elle ne présente pas de difficultés à se déplacer, de douleurs, d’adhérences ou de raideurs. La consultation post-partum permettra également de rééquilibrer la posture, relâcher les tensions, aider à la cicatrisation, rétablir la mobilité des organes digestifs, aider à l’involution utérine et préparer par la suite le corps à une nouvelle insémination ou saillie, un peu plus tard.
+
+                        <br><br>Chez le mâle reproducteur, l’ostéopathie est tout aussi importante. Elle permettra de s’assurer que l’animal n’a pas de dysfonctions ostéopathiques pouvant le gêner lors de la monte et/ou engendrer une diminution de qualité de sperme. Les problématiques d’infertilité pourront également être abordées.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal4 end-->
+
+    <!-- Modal5 start-->
+    <div class="modal fade" id="Modal5" tabindex="-1" role="dialog" aria-labelledby="Modal5" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Pour les animaux de production/rente</h5>
+                    <a type="button"  data-bs-dismiss="modal" aria-label="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        On a souvent tendance à les oublier et pourtant, eux aussi méritent leurs séances d’ostéopathie ! Cette démarche accompagne celle adoptée par de plus en plus de professionnels, c’est-à-dire vers la production biologique et le bien-être animal. Le travail de l’ostéopathe aura pour objectif d’optimiser la santé du cheptel et améliorer la qualité et la quantité de la production quelle qu’elle soit. Il pourra intervenir sur plusieurs problématiques : des troubles locomoteurs, reproducteurs ou encore métaboliques. Dans un second temps, cela évitera dans certains cas l’utilisation d’agents médicamenteux impliquant une mise en pause de la production et forcément une perte d’argent et de temps.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal4 end-->
+
+
+{% endblock %}

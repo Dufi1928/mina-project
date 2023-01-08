@@ -1,0 +1,47 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ContactController!{% endblock %}
+
+{% block body %}
+
+    <link rel="stylesheet" href="{{ asset('build/contact.css') }}">
+<div class="contact_wrapper">
+    <div class="bg-img">
+        <img src="{{asset('img/carussel-img-2.jpg')}}" alt="">
+    </div>
+    <div class="container contact_content">
+
+        <div class="row">
+
+            <div class="col-lg-6 col-sm-12 justify-content-center">
+                <div class="contact-links">
+                    <h1>Contactez-moi </h1>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i> 06 14 92 30 71</p>
+                    <a class="unset" href='mailto:mina.osteo@gmail.com'><i class="fa-regular fa-envelope"></i> mina.osteo@gmail.com</a>
+                    <a class="unset" href='https://www.facebook.com/minacontay.osteopatheanimalier'><i class="fa-brands fa-facebook-f"></i> Mina Contay – Ostéopathe Animalier</a>
+                    <a class="unset" href='https://www.instagram.com/mina_osteopathe_animalier/?hl=fr'><i class="fa-brands fa-instagram"></i>Mina_osteopathe_animalier </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+
+
+
+                <div class="form">
+                    {{ form_start(form) }}
+                    {{ form_widget(form.nom) }}
+                    {{ form_widget(form.surname) }}
+                    <div class="form-small">
+                        {{ form_widget(form.phone) }}
+                        {{ form_widget(form.email) }}
+                    </div>
+                    {{ form_widget(form.subject) }}
+                    {{ form_widget(form.messege) }}
+                    {{ form_end(form) }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

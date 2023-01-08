@@ -1,0 +1,69 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello AboutController!{% endblock %}
+
+
+{% block body %}
+    <link rel="stylesheet" href="{{ asset('build/about.css') }}" />
+<!-- Start section what is it-->
+    <section class="cont">
+        <div class="all">
+            <div class="left">
+                <h2 class="normal-title">Qu’est-ce que c’est ?</h2>
+                <div class="mobile-img">
+                    <img src="{{asset('img/about/unnamed (5).png')}}" alt="">
+                </div>
+                <p> D’après 12° de l’article D.243-7 du CRPM (Code Rural et de la Pêche Maritime), voici la définition de l’ostéopathie animale :
+
+                    <br><br><span class="space">« </span>On entend par "acte d'ostéopathie animale" les manipulations ayant pour seul but de prévenir ou de traiter des troubles fonctionnels du corps de l'animal, à l'exclusion des pathologies organiques qui nécessitent une intervention thérapeutique, médicale, chirurgicale, médicamenteuse ou par agents physiques. Ces manipulations sont musculo-squelettiques et myo-fasciales, exclusivement manuelles et externes.
+
+                    <br><br>Pour la prise en charge de ces troubles fonctionnels, les personnes réalisant des actes d'ostéopathie animale effectuent des actes de manipulations et mobilisations non instrumentales, directes et indirectes, non forcées. <span class="space">» </span>
+                </p>
+            </div>
+            <div class="right">
+                <img src="{{asset('img/about/unnamed (5).png')}}" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="w100">
+        <section class="cont">
+            <div class="all">
+                <div class="right">
+                    <img src="{{asset('img/about/unnamed.png')}}" alt="">
+                </div>
+
+                <div class="left">
+                    <h2 class="hleft">Plus concrètement, qu’est-ce que ça veut dire ?</h2>
+                    <div class="mobile-img2">
+                        <img src="{{asset('img/about/unnamed.png')}}" alt="">
+                    </div>
+                    <span style="color: #fff;text-align: justify;"> L’ostéopathie animale est une thérapie alternative, douce et manuelle. Elle permet d’agir de manière préventive ou curative sur les troubles fonctionnels que peut présenter le corps de l’animal. Elle s’appuie sur la compréhension globale du corps, cherche à identifier les causes des douleurs et des troubles, à les soigner et les soulager dans le but de maintenir ou améliorer l’état de santé de l’animal. Cette approche permet de rééquilibrer le corps et lui donner toutes les clés pour qu’il puisse s’auto-réguler et s’auto-guérir sans l’emploi d’agents médicamenteux.
+                    </span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="cont">
+        <div>
+            <div class="left-last">
+                <h2 class="normal-title">Mais c’est quoi un trouble fonctionnel ?</h2>
+                <p > Un trouble fonctionnel c’est un dysfonctionnement de l’organisme. Il peut se présenter de plusieurs manières comme le manque de mobilité d’une articulation ou d’un tissu ou encore le mauvais fonctionnement d’un organe. Il peut avoir plusieurs origines comme un traumatisme, des contraintes répétées, des troubles de la posture, des facteurs environnementaux (mauvaise hygiène de vie, mauvaise alimentation, exercices inadaptés, pollution…), un stress psycho-émotionnel ou encore une maladie.
+
+                    <br><br>Ce trouble va entrainer d’autres troubles proches ou à distance dans tout le corps et sur d’autres structures.
+
+                    <br><br>C’est ce qui diffère d’un vétérinaire qui, lui, prendra en charge les troubles organiques. Ce sont des lésions anatomiques c’est-à-dire de la structure même, comme lors d’une fracture, une luxation, une infection, un cancer, une insuffisance rénale…
+
+                    <br><br>Toutefois, l’ostéopathe pourra par la suite, une fois le diagnostic et le traitement est réalisés, accompagner l’animal pour le soulager, lui apporter du confort, contribuer à accélérer le retour à son schéma physiologique de base ou mettre en place un protocole de rééducation en accord avec le vétérinaire.
+
+                    <br><br>Il est donc important de savoir orienter et référer l’animal vers un vétérinaire ou un autre professionnel de santé animale si cela ne rentre pas dans le champs de compétences de l’ostéopathe.
+
+                    <br><br>Il faut savoir que l’Ostéopathie présente de grandes diversités que ce soit d’un point de vue des formations que de ses applications sur le terrain. Ainsi, il existe autant d’ostéopathies que de praticiens sur le terrain. Ce qui est important, c’est de choisir un praticien qui vous corresponde, à vous et à votre animal, et qui ait une boite à outils remplie, avec une variété importante de techniques thérapeutiques pour pouvoir s’adapter au mieux à l’individu qu’il a en face lui.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+{% endblock %}

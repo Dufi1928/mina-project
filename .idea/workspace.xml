@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="964a0060-5aad-471c-9a2b-6fde5dae46eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mina-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/index-img-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/makekete.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/quotes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DescriptionController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/description/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/assets/styles/about.scss" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2HsMB9YiQ0np4YKOzIXWI2QMXXq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "D:/Пары 2022 - 2023/Framewirck Css",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.splitter.proportion": "0.3139785",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mina-project\assets\styles" />
+      <recent name="D:\mina-project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mina-project\public\img\motifs" />
+      <recent name="D:\mina-project\templates\description" />
+      <recent name="D:\mina-project\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.raisons.html.twig">
+    <configuration name="raisons.html.twig" type="JavascriptDebugType" nameIsGenerated="true" uri="http://ftp.cluster028.hosting.ovh.net/templates/raisons/raisons.html.twig">
+      <method v="2" />
+    </configuration>
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="964a0060-5aad-471c-9a2b-6fde5dae46eb" name="Changes" comment="" />
+      <created>1669069199315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669069199315</updated>
+      <workItem from="1669069201019" duration="10044000" />
+      <workItem from="1669147331168" duration="3968000" />
+      <workItem from="1669151405223" duration="1692000" />
+      <workItem from="1669153344114" duration="6810000" />
+      <workItem from="1669384926023" duration="2751000" />
+      <workItem from="1669466809413" duration="31967000" />
+      <workItem from="1669566188521" duration="9718000" />
+      <workItem from="1669577140152" duration="390000" />
+      <workItem from="1669577645424" duration="34000" />
+      <workItem from="1669579009009" duration="8846000" />
+      <workItem from="1669648428588" duration="785000" />
+      <workItem from="1669649995874" duration="173000" />
+      <workItem from="1669658690817" duration="3458000" />
+      <workItem from="1669669753530" duration="3243000" />
+      <workItem from="1669673348220" duration="3632000" />
+      <workItem from="1669710481047" duration="603000" />
+      <workItem from="1669754039503" duration="7050000" />
+      <workItem from="1669840341323" duration="553000" />
+      <workItem from="1669840951346" duration="7464000" />
+      <workItem from="1670062864051" duration="3466000" />
+      <workItem from="1670070558512" duration="22990000" />
+      <workItem from="1670158623123" duration="9341000" />
+      <workItem from="1670169197100" duration="1517000" />
+      <workItem from="1670265997671" duration="12294000" />
+      <workItem from="1670439430422" duration="2511000" />
+      <workItem from="1670489118415" duration="210000" />
+      <workItem from="1670534329542" duration="4396000" />
+      <workItem from="1670612590496" duration="5473000" />
+      <workItem from="1670677411805" duration="25879000" />
+      <workItem from="1670756944674" duration="11734000" />
+      <workItem from="1670771865498" duration="173000" />
+      <workItem from="1670772096237" duration="12985000" />
+      <workItem from="1670788273157" duration="157000" />
+      <workItem from="1670789214264" duration="2717000" />
+      <workItem from="1670834202873" duration="8128000" />
+      <workItem from="1670876492503" duration="8226000" />
+      <workItem from="1670966869245" duration="6362000" />
+      <workItem from="1671055614687" duration="4915000" />
+      <workItem from="1671134174060" duration="13639000" />
+      <workItem from="1671182801233" duration="421000" />
+      <workItem from="1671185477616" duration="8518000" />
+      <workItem from="1671217335214" duration="9630000" />
+      <workItem from="1671306417100" duration="5317000" />
+      <workItem from="1671375460605" duration="9261000" />
+      <workItem from="1671551272924" duration="14288000" />
+      <workItem from="1671660408309" duration="3448000" />
+      <workItem from="1671665166589" duration="560000" />
+      <workItem from="1671665754616" duration="44000" />
+      <workItem from="1671665836249" duration="115000" />
+      <workItem from="1671665976011" duration="1048000" />
+      <workItem from="1671667069293" duration="487000" />
+      <workItem from="1671741070514" duration="657000" />
+      <workItem from="1671741771973" duration="3717000" />
+      <workItem from="1671745792600" duration="1304000" />
+      <workItem from="1671747163042" duration="252000" />
+      <workItem from="1671747476894" duration="425000" />
+      <workItem from="1671748625768" duration="282000" />
+      <workItem from="1671749272235" duration="575000" />
+      <workItem from="1671750079676" duration="32000" />
+      <workItem from="1671750160019" duration="156000" />
+      <workItem from="1671751211626" duration="7000" />
+      <workItem from="1671751450138" duration="12000" />
+      <workItem from="1671808991604" duration="3500000" />
+      <workItem from="1671894320989" duration="1198000" />
+      <workItem from="1671895553834" duration="2460000" />
+      <workItem from="1671992231832" duration="568000" />
+      <workItem from="1671992822959" duration="343000" />
+      <workItem from="1671993188968" duration="15710000" />
+      <workItem from="1672074588216" duration="18875000" />
+      <workItem from="1672138641336" duration="69000" />
+      <workItem from="1672140943241" duration="1502000" />
+      <workItem from="1672181383078" duration="799000" />
+      <workItem from="1672218180545" duration="43000" />
+      <workItem from="1672219399052" duration="633000" />
+      <workItem from="1672234552915" duration="3260000" />
+      <workItem from="1672264984198" duration="847000" />
+      <workItem from="1672303038033" duration="58000" />
+      <workItem from="1672410358786" duration="1266000" />
+      <workItem from="1672422314923" duration="3596000" />
+      <workItem from="1672439248250" duration="413000" />
+      <workItem from="1672601745878" duration="154000" />
+      <workItem from="1672646912814" duration="807000" />
+      <workItem from="1672760700418" duration="5894000" />
+      <workItem from="1672820690288" duration="11471000" />
+      <workItem from="1672841632549" duration="1106000" />
+      <workItem from="1672842785885" duration="8825000" />
+      <workItem from="1672906187149" duration="9000" />
+      <workItem from="1673011807377" duration="1725000" />
+      <workItem from="1673106758555" duration="13046000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

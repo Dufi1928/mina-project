@@ -1,204 +1,178 @@
-
 p {
     padding: 0;
-    margin: 0;
+    margin: 10px;
 }
-
+body{
+    margin: auto;
+    justify-content: center;
+}
+.title-head{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+}
 .content {
     width: 100%;
     display: block;
     height: 150px;
     padding: 15px;
+    margin-top: 0;
     background: #967E76;
 }
-
 .metaphore {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 45px;
-
     &-block {
         font-size: 30px;
-        font-family: 'Gabriola';
+        text-align: center;
+
+        font-family: 'Gabriola', sans-serif;
         color: #F3E8D4;
         display: flex;
         z-index: 0;
         height: 65%;
-        width: 90%;
+        width: 100%;
         justify-content: center;
     }
-
     &-txt {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-left: 15px;
         margin-right: 15px;
-
         &-p {
             display: flex;
             font-size: 2.3rem;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-
         }
     }
-
-
     .linet {
         width: 100%;
         display: flex;
         justify-content: left;
         margin-bottom: 10px;
-
         &-top {
             width: 85%;
             height: 3px;
             background: #F3E8D4;
             z-index: 1;
             margin-left: -5px;
-
-
         }
-
     }
-
     .lineb {
         margin-top: 10px;
         width: 100%;
         display: flex;
         justify-content: right;
-
         &-bottom {
             width: 85%;
             height: 3px;
             background: #F3E8D4;
             z-index: 1;
             margin-right: -5px;
-
-
         }
-
     }
-
     &-gimmai-l {
         display: flex;
         align-items: flex-start;
-
         img {
             height: 80px;
             width: 80px;
         }
     }
-
     &-gimmai-r {
         display: flex;
         align-items: flex-end;
-
         img {
             height: 80px;
             width: 80px;
             transform: rotate(180deg);
         }
     }
-
 }
-
-
-//start section-content
-.section{
+//Main section-content Start
+.wrap{
+    padding: 70px ;
+    width: 95%;
+    background: #C2B2AC ;
     display: flex;
-    justify-content: center;
-
-    &_content{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-    &_all{
-        margin-top: 20px;
-        width: 90%;
-        max-width: 1300px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    &_part {
-        margin-top: 30px;
-        width: 100%;
-        margin-bottom: 20px;
-
-
-        p{
-            font-size:23px ;
-            text-align: justify;
-
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    .img{
+        max-height: 500px;
+        max-width: 440px;
+        overflow: hidden;
+        border-radius: 14px;
+        rotate: -11deg;
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
-        h1{
+    }
+    .img-right{
+        rotate: 11deg;
+    }
+    .layer{
+        max-width: 65%;
+        height: 100%;
+
+        .title{
+            font-family: Petit Formal Script, sans-serif;
+            text-align: center;
+            font-size: 60px;
+            ;
+            margin-bottom: 50px;
             color: #443F3E;
-            font-weight: bold;
-            font-size: 40px;
-            font-family: Segoe Script;
+            h1{
+                text-align: inherit;
+                font-weight: 900;
+            }
         }
-    }
-
-
-    &_img{
-        max-width: 40%;
-        float: left;
-        margin-right: 20px;
-        overflow: hidden;
-        border-radius: 20px;
-
-        img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-
-
-
-        }
-    }
-
-    &_img_1{
-        max-width: 40%;
-        float: right;
-        margin-left: 30px;
-        overflow: hidden;
-        border-radius: 20px;
-
-        img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-
-
-
+        .description{
+            font-size: 16px;
+            text-align: justify;
         }
     }
 }
-
-
-
-// And Section content
-
-
-
-.footer {
-    background: #967E76;
-    margin-top: 100px;
-    height: 190px;
-    width: 100%;
+.img-show{
+    display:none ;
 }
+// Main section-content End
+@media (max-width: 1550px) {
+    .wrap{
+        .img{
+            max-height: 400px;
+            max-width: 340px;
+        }
+        .layer{
+            max-width: 63%;
+        }
+    }
+}
+//responsive
+@media (max-width: 1250px) {
+    .wrap{
+        .img{
+            max-height: 400px;
+            max-width: 340px;
+        }
+        .layer{
+            max-width: 50%;
+            .description{
+                font-size: 12px;
+            }
+        }
 
-//responcive 
+    }
+}
 @media (max-width: 1130px) {
     .metaphore {
         &-txt-p {
@@ -213,7 +187,6 @@ p {
             }
 
         }
-
         &-gimmai-r {
             img {
                 width: 60px;
@@ -222,7 +195,6 @@ p {
 
         }
     }
-
     .linet-top {
         width: 95%;
         height: 2px;
@@ -231,67 +203,45 @@ p {
     .lineb-bottom {
         width: 95%;
         height: 2px;
-
-
     }
-
-
 }
-
 @media(max-width: 965px) {
     .metaphore {
         &-txt-p {
             font-size: 25px;
             line-height: 1;
-
         }
-
         &-gimmai-l {
             img {
                 height: 55px;
                 width: 55px;
             }
-
         }
-
         &-gimmai-r {
             img {
                 width: 50px;
                 height: 60px;
             }
-
         }
     }
-
-
+    .wrap{
+        .img{
+            max-height: 300px;
+            max-width: 240px;
+        }
+        .layer{
+            max-width: 63%;
+            .description{
+                font-size: 12px;
+            }
+        }
+    }
 }
-
-@media(max-width: 835px) {
-
-    .section{
-
-        &_part {
-            p{
-                font-size:16px ;
-                text-align: justify;
-
-            }
-            h1{
-                font-size: 35px;
-                font-family: Segoe Script;
-            }
-        }
-    }
-
-
-
-
-
+@media(max-width: 900px) {
     .metaphore {
         &-txt-p {
             font-size: 25px;
             line-height: 1;
-
         }
 
         &-gimmai-l {
@@ -307,24 +257,62 @@ p {
                 width: 50px;
                 height: 60px;
             }
-
         }
     }
-    .description {
 
-        p{
-            font-size: 14px;
-        }
-
-
-
-
+    .img-hide{
+        display: none;
+    }
+    .img-show{
+        display:block;
+        margin-bottom: 30px;
     }
 
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:30px;
+        .img{
+            max-height: 300px;
+            max-width: 290px;
+            rotate: unset;
+        }
+        .layer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 90%;
+            .title{
+                margin-bottom: 30px;
+                font-size:calc(15px + 45 * (100vw / 900));
+                h1{
+                    font-size: inherit;
+                }
+            }
+            p{
+                padding: 0;
+                margin: 0;
+            }
+            .img{
+                width: 100%;
+                min-height: 290px;
+                display: flex;
+                justify-content: center;
+                margin: auto auto 30px;
+            }
+            .description{
+                width: 100%;
+                font-size: 14px;
+                p{
+                    width: 100%;
+                }
+            }
+        }
 
+    }
 }
-
-@media (max-width: 692px) {
+@media (max-width: 700px) {
     .metaphore {
         &-txt-p {
             font-size: 25px;
@@ -349,7 +337,6 @@ p {
         }
     }
 }
-
 @media (max-width: 500px) {
     .metaphore {
         &-txt-p {
@@ -374,13 +361,28 @@ p {
 
         }
     }
+    .wrap {
+        padding: 30px 5px 30px 5px;
+        .layer{
+            .description{
+                width: 100%;
+                font-size: 12px;
+                p{
+                    font-size: inherit;
+                }
+            }
+        }
+
+    }
 
 }
-
-@media (max-width: 442px) {
+@media (max-width: 500px) {
+    .content{
+        height: 90px;
+    }
     .metaphore {
         &-txt-p {
-            font-size: 18px;
+            font-size: 15px;
             line-height: 1;
 
         }
@@ -400,28 +402,22 @@ p {
             }
         }
     }
-
     .linet {
         margin-bottom: 7px;
-
         &-top {
             width: 95%;
-            height: 33px;
-
-
+            height: 2px;
         }
-
     }
-
     .lineb {
         margin-top: 7px;
 
         &-bottom {
             width: 95%;
-            height: 33px;
 
-
+            height: 2px;
         }
-
     }
 }
+
+

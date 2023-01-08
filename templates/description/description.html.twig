@@ -1,0 +1,132 @@
+{% extends '/base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+
+{% block body %}
+    <link rel="stylesheet" href="{{ asset('build/description.css') }}" />
+    <div class="content">
+        <div class="metaphore">
+            <div class="metaphore-block">
+                <div class="metaphore-gimmai-l">
+                    <img src="{{asset('img/quotes.svg')}}" alt="">
+                </div>
+
+                <div class="metaphore-txt">
+                    <div class="linet">
+                        <div class="linet-top">
+
+                        </div>
+                    </div>
+                    <p class="metaphore-txt-p">
+                        L’ostéopathie est une science, un art et une philosophie. A.T. Still
+                    </p>
+                    <div class="lineb">
+                        <div class="lineb-bottom">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="metaphore-gimmai-r">
+                    <img src="{{asset('img/quotes.svg')}}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- start section content -->
+    <div class="wrap">
+        <div class="img img-hide">
+            <img src="{{asset('img/index-img-2.jpg')}}" alt="">
+        </div>
+        <div class="layer">
+            <div class="title">
+                <h1>À propos de moi </h1>
+            </div>
+            <div class="img img-show">
+                <img src="{{asset('img/index-img-2.jpg')}}" alt="">
+            </div>
+            <div class="description">
+                <p>
+                    Passionnée par les animaux et cavalière depuis mon plus jeune âge, j’ai toujours été proche de
+                    la nature et soucieuse du bien-être animal, désireuse de les comprendre et de les accompagner vers ce
+                    bien-être en y alliant la performance.
+                </p>
+                <p>
+                    J’ai donc intégré et étais diplômée de l’Ecole Supérieure d’Ostéopathie Animale de Biopraxia après un cursus
+                    de cinq années. J’ai par la suite validé mes compétences auprès du Conseil National de l’Ordre des
+                    Vétérinaires et je suis donc inscrite sur le Registre National d’Aptitude sous le numéro OA 1167
+                </p>
+                <p>
+                    J’interviens sur toutes les espèce que vous soyez particulier ou professionnel, dans les
+                    Hauts-de-France (principalement Nord-Pas-de-Calais) avec la possibilité d’élargir mon périmètre
+                    d’activité. J’interviens également en Belgique frontalière.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="img img-right img-show">
+            <img src="{{asset('img/index-img-2.jpg')}}" alt="">
+        </div>
+
+        <div class="layer">
+            <div class="description">
+                <p>
+                    Je suis formée aux techniques structurelles, tissulaires, crâniennes, viscérales et énergétiques
+                    et je continue de me former chaque année à diverses méthodes pour accompagner au mieux vos
+                    animaux. De plus, je travaille en collaboration avec différents professionnels de santé animale
+                    (technicien dentaire, masseur, vétérinaire, podologue, maréchal-ferrant, naturopathe,
+                    comportementaliste, communication animale, …) pour répondre au mieux à vos besoins.
+
+                </p>
+                <p>
+                    Mon engagement professionnel se traduit également par mon implication au sein de plusieurs
+                    associations telles que l’IPOAM ou l’UFEOA.
+                <p>
+                    En attendant de pouvoir nous rencontrer et échanger, n’hésitez pas à parcourir les
+                    différents
+                </p>
+                <p>
+                    onglets pour en apprendre un peu plus sur moi et sur l’ostéopathie. Vous pouvez également me
+                    contacter pour toute demande d’information.
+                    Ostéopathiquement,
+                </p>
+                <p>
+                    Mina 👐
+                </p>
+
+            </div>
+        </div>
+        <div class="img img-right img-hide">
+            <img src="{{asset('img/index-img-2.jpg')}}" alt="">
+        </div>
+    </div>
+
+    <!-- end section content -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,493 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello MotifsController!{% endblock %}
+
+{% block body %}
+    <link rel="stylesheet" href="{{ asset('build/motifs.css') }}">
+    <div class="container">
+        <div id="header">
+            <h1>Les motifs de consultation</h1>
+            <p class="main-subtitle">Voici une liste (non exhaustive) pour chaque espèce :</p>
+        </div>
+
+
+        <div class="row  main-content">
+            <div class="col-lg-6 col-sm-12  ">
+                <h2>Cheval </h2>
+
+                <div class="accordion accordion-flush" id="accordionFlush1">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                                Suivi et troubles du système locomoteur / musculo-squelettique
+                            </button>
+                        </h2>
+                        <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionFlush1">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li> Check-up</li>
+                                    <li> Visite d’achat</li>
+                                    <li> Difficultés à se déplacer / sauter</li>
+                                    <li> Irrégularité d’allure</li>
+                                    <li> Boiterie</li>
+                                    <li> Raideurs / arthrose</li>
+                                    <li> Difficultés à se coucher / se relever</li>
+                                    <li> Changements de posture (dos rond, tête incurvée, fesses d’un côté, …)</li>
+                                    <li> Difficultés à effectuer certains exercices : cercles, serpentines, sauts, longe, incurvations, mise sur la main, transitions …</li>
+                                    <li> Changements de pieds difficiles ou récurrents</li>
+                                    <li> Se traverse</li>
+                                    <li> Se désunit</li>
+                                    <li> Se déjuge / méjuge</li>
+                                    <li> Défaut d’engagement / de propulsion</li>
+                                    <li> Bat à la main</li>
+                                    <li> Défenses au mors</li>
+                                    <li> Départ ou maintien du galop compliqué</li>
+                                    <li> Myosites / PSSM</li>
+                                    <li> Avant / après une échéance sportive</li>
+                                    <li> Tremblements</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                                Troubles viscéraux (système respiratoire, digestif, urinaire)
+                            </button>
+                        </h2>
+                        <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordionFlush1">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Constipation</li>
+                                    <li>Diarrhée</li>
+                                    <li>Sensibilité à l’abdomen quand on le touche</li>
+                                    <li>Répond différemment à la jambe</li>
+                                    <li>Difficultés à la miction / défécation</li>
+                                    <li>Boit et/ou mange plus ou moins</li>
+                                    <li>Crottins de mauvaise qualité : sent mauvais, modification de la consistance, de la couleur…</li>
+                                    <li>Difficultés respiratoires (emphysème chronique, toux…)</li>
+                                    <li>Troubles digestifs</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                                Troubles reproducteurs (système génital)
+                            </button>
+                        </h2>
+                        <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordionFlush1">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Chaleurs persistantes</li>
+                                    <li>Chaleurs douloureuses</li>
+                                    <li>Difficultés à la gestation</li>
+                                    <li>Difficultés à prendre (ovulation / fécondation) pour une poulinière à la saillie/monte</li>
+                                    <li>Difficultés lors de la mise-bas</li>
+                                    <li>Difficultés à saillir / n’arrive plus à monter pour un étalon</li>
+                                    <li>Préparation et aide avant/pendant/après gestation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                                Troubles du système neurologique/endocrinien
+                            </button>
+                        </h2>
+                        <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionFlush1">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Suivi troubles neurologiques sous approbation du vétérinaire</li>
+                                    <li>Fourbure</li>
+                                    <li>SME</li>
+                                    <li>Cushing</li>
+                                    <li>Autres pathologies</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                                Troubles généraux / comportement / douleur
+                            </button>
+                        </h2>
+                        <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionFlush1">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Perte d’état sur du long terme</li>
+                                    <li>Perte de masse musculaire</li>
+                                    <li>Asymétrie musculaire</li>
+                                    <li>Mauvaise qualité de sabot</li>
+                                    <li>Mauvaise qualité de poils</li>
+                                    <li>Problèmes de peau</li>
+                                    <li>Hypersensibilité au toucher</li>
+                                    <li>Zone chaude ou froide</li>
+                                    <li>Sudation localisée excessive</li>
+                                    <li>Engorgements réguliers</li>
+                                    <li>Diminution des performances sportives</li>
+                                    <li>Changements de comportement : agressivité quand on le touche à certains endroits, animal apathique, plaque ses oreilles en arrière</li>
+                                    <li>Réactions au sanglage, au montoir …</li>
+                                    <li>Réticence à la monte ou à effectuer certaines tâches</li>
+                                    <li>Léchages répétés d’une zone</li>
+                                    <li>Fouaille avec sa queue</li>
+                                    <li>Penche la tête d’un côté</li>
+                                    <li>Perte ou augmentation de l’appétit / abreuvement</li>
+                                    <li>Ne se laisse plus faire pour quelque chose d’habituel (mise au licol par exemple)</li>
+                                    <li>Refus / dérobades à l’obstacle</li>
+                                    <li>Rue / se cabre</li>
+                                    <li>Stress</li>
+                                    <li>Refus du mors, du cavalier, de la selle</li>
+                                    <li>Ne se roule plus ou beaucoup moins</li>
+                                    <li>Ne se couche plus ou beaucoup moins</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                                Soutien post chirurgie ou traumatisme
+                            </button>
+                        </h2>
+                        <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFlush1">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Traumatismes divers : chute, bagarre, accident …</li>
+                                    <li>En soutien de n’importe quelle pathologie</li>
+                                    <li>Après castration</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12  right-text ">
+                <div class="right-img ">
+                    <img src="{{ asset('img/motifs/mainimage.jpg') }}" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row  main-content">
+            <div class="col-lg-6 col-sm-12  right-text">
+                <div class="right-img right-img-lg">
+                    <img src="{{ asset('img/motifs/mainimage.jpg') }}" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 ">
+                <h2 class="title-inner">Chien / Chat </h2>
+                <div class="accordion accordion-flush" id="accordionFlush2">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading7">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                                Suivi et troubles du système locomoteur / musculo-squelettique
+                            </button>
+                        </h2>
+                        <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7" data-bs-parent="#accordionFlush2">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Check-up</li>
+                                    <li>Difficultés ou refus de se déplacer / tourner / sauter / monter ou descendre du canapé ou de la voiture, à la maison ou à l’activité sportive (agility, mordant…)</li>
+                                    <li>Boiterie</li>
+                                    <li>Raideurs articulaires / arthrose</li>
+                                    <li>Plaintes lors du coucher ou position assise</li>
+                                    <li>Changements de posture (dos rond, tête incurvée, fesses d’un côté, …)</li>
+                                    <li>Difficultés à effectuer certains exercices</li>
+                                    <li>Se traverse quand il marche</li>
+                                    <li>Défaut d’engagement / de propulsion</li>
+                                    <li>Avant / après une échéance sportive</li>
+                                    <li>Luxation de rotule</li>
+                                    <li>Tremblements</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading8">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
+                                Troubles viscéraux (système respiratoire, digestif, urinaire)
+                            </button>
+                        </h2>
+                        <div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-heading8" data-bs-parent="#accordionFlush2">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Constipation</li>
+                                    <li>Vomissements</li>
+                                    <li>Diarrhée </li>
+                                    <li>Difficultés à la miction / défécation</li>
+                                    <li>Boit et/ou mange plus ou moins</li>
+                                    <li>Selles de mauvaise qualité : sent mauvais, modification de la consistance, de la couleur…</li>
+                                    <li>Difficultés respiratoires</li>
+                                    <li>Incontinence</li>
+                                    <li>Troubles digestifs </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading9">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse9">
+                                Troubles reproducteurs (système génital)
+                            </button>
+                        </h2>
+                        <div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-heading9" data-bs-parent="#accordionFlush2">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Chaleurs persistantes</li>
+                                    <li>Chaleurs irrégulières</li>
+                                    <li>Chaleurs douloureuses</li>
+                                    <li>Chaleurs silencieuses</li>
+                                    <li>Difficultés à la gestation</li>
+                                    <li>Difficultés à prendre (ovulation / fécondation)</li>
+                                    <li>Difficultés lors de la mise-bas</li>
+                                    <li>Difficultés à saillir / n’arrive plus à monter pour un mâle</li>
+                                    <li>Stérilité</li>
+                                    <li>Infections urinaires chroniques</li>
+                                    <li>Préparation et aide avant / pendant / après gestation</li>
+                                    <li>Mono ou cryptorchidie</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading10">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapse10">
+                                Troubles du système neurologique/endocrinien
+                            </button>
+                        </h2>
+                        <div id="flush-collapse10" class="accordion-collapse collapse" aria-labelledby="flush-heading10" data-bs-parent="#accordionFlush2">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Penche la tête d’un côté</li>
+                                    <li>Suivi épilepsie</li>
+                                    <li>Suivi troubles neurologiques sous approbation du vétérinaire</li>
+                                    <li>Hypo ou hyperthyroïdie</li>
+                                    <li>Autres pathologies</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading11">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
+                                Troubles généraux / comportement / douleur
+                            </button>
+                        </h2>
+                        <div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-heading11" data-bs-parent="#accordionFlush2">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Perte d’état sur du long terme</li>
+                                    <li>Perte de masse musculaire</li>
+                                    <li>Asymétrie musculaire</li>
+                                    <li>Mauvaise qualité de poils</li>
+                                    <li>Problèmes de peau</li>
+                                    <li>Hypersensibilité au toucher</li>
+                                    <li>Zone chaude ou froide</li>
+                                    <li>Diminution des performances sportives</li>
+                                    <li>Changements de comportement : agressivité, signes de douleur, nervosité, moins d’entrain à sortie en promenade, moins dynamique que d’habitude</li>
+                                    <li>S’essouffle rapidement</li>
+                                    <li>Rechigne à continuer la ballade (demi-tour)</li>
+                                    <li>Léchages répétés d’une zone</li>
+                                    <li>Perte ou augmentation de l’appétit / abreuvement</li>
+                                    <li>Ne se laisse plus faire pour quelque chose</li>
+                                    <li>Ne se laisse plus toucher à un endroit, devient agressif</li>
+                                    <li>Stress</li>
+                                    <li>Ne se couche plus ou beaucoup moins</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Soutien post chirurgie ou traumatisme
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush2">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Traumatismes divers : chute, bagarre, accident, morsures ...</li>
+                                    <li>En soutien de n’importe quelle pathologie</li>
+                                    <li>Après castration/stérilisation</li>
+                                    <li>Otites chroniques</li>
+                                    <li>Hernie discale</li>
+                                    <li>Dysplasie</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 right-text ">
+            <div class="right-img right-img-sm">
+                <img src="{{ asset('img/motifs/mainimage.jpg') }}" alt="">
+            </div>
+        </div>
+        <div class="row  main-content">
+            <div class="col-lg-6 col-sm-12 ">
+                <h2>Vache </h2>
+                <div class="accordion accordion-flush" id="accordionFlush3">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading13">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse13">
+                                Suivi et troubles du système locomoteur / musculo-squelettique
+                            </button>
+                        </h2>
+                        <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-heading13" data-bs-parent="#accordionFlush3">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Check-up</li>
+                                    <li>Difficultés à se déplacer</li>
+                                    <li>Irrégularité d’allure</li>
+                                    <li>Boiterie</li>
+                                    <li>Raideurs / arthrose</li>
+                                    <li>Plaintes lors du lever / coucher</li>
+                                    <li>Position couchée persistante / difficultés à rester debout</li>
+                                    <li>Changements de posture (dos rond, tête incurvée, fesses d’un côté, …)</li>
+                                    <li>Tremblements</li>
+                                    <li>Difficultés à se relever (reste longtemps sur les antérieurs avant de se coucher ou se relever)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading14">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collapse14">
+                                Troubles viscéraux (système respiratoire, digestif, urinaire)
+                            </button>
+                        </h2>
+                        <div id="flush-collapse14" class="accordion-collapse collapse" aria-labelledby="flush-heading14" data-bs-parent="#accordionFlush3">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Constipation</li>
+                                    <li>Bouses de mauvaise qualité : couleur, consistance, odeur, présence de fibres végétales</li>
+                                    <li>Eructations importantes</li>
+                                    <li>Diminution de la production laitière</li>
+                                    <li>Difficultés à la miction / défécation</li>
+                                    <li>Augmentation ou diminution de l’appétit et/ou de l’abreuvement</li>
+                                    <li>Difficultés respiratoires (emphysème chronique, toux…)</li>
+                                    <li>Diminution de la rumination</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading15">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse15" aria-expanded="false" aria-controls="flush-collapse15">
+                                Troubles reproducteurs (système génital)
+                            </button>
+                        </h2>
+                        <div id="flush-collapse15" class="accordion-collapse collapse" aria-labelledby="flush-heading15" data-bs-parent="#accordionFlush3">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Chaleurs persistantes</li>
+                                    <li>Chaleurs douloureuses</li>
+                                    <li>Chaleurs silencieuses</li>
+                                    <li>Difficultés à être gestante</li>
+                                    <li>Difficultés à prendre à la saillie / monte</li>
+                                    <li>Difficultés lors de la mise-bas, utilisation de vêleuse</li>
+                                    <li>Difficultés à saillir / n’arrive plus à monter pour un taureau</li>
+                                    <li>Préparation et aide avant/pendant/après gestation</li>
+                                    <li>Stérilité</li>
+                                    <li>Baisse de fertilité</li>
+                                    <li>Mammites récurrentes</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading16">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse16" aria-expanded="false" aria-controls="flush-collapse16">
+                                Troubles du système neurologique/endocrinien
+                            </button>
+                        </h2>
+                        <div id="flush-collapse16" class="accordion-collapse collapse" aria-labelledby="flush-heading16" data-bs-parent="#accordionFlush3">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Suivi troubles neurologiques sous approbation du vétérinaire</li>
+                                    <li>Autres pathologies</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading17">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse17" aria-expanded="false" aria-controls="flush-collapse17">
+                                Troubles généraux / comportement / douleur
+                            </button>
+                        </h2>
+                        <div id="flush-collapse17" class="accordion-collapse collapse" aria-labelledby="flush-heading17" data-bs-parent="#accordionFlush3">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Diminution de la production laitière</li>
+                                    <li>Signes de gênes ou rechigne à monter en salle de traite</li>
+                                    <li>Perte d’état sur du long terme</li>
+                                    <li>Perte de masse musculaire</li>
+                                    <li>Mauvaise qualité de sabot</li>
+                                    <li>Mauvaise qualité de poils</li>
+                                    <li>Problèmes de peau</li>
+                                    <li>Hypersensibilité au toucher</li>
+                                    <li>Zone chaude ou froide</li>
+                                    <li>Sudation localisée excessive</li>
+                                    <li>Engorgements réguliers</li>
+                                    <li>Changements de comportement : stress, agressivité</li>
+                                    <li>Léchages répétés d’une zone</li>
+                                    <li>Perte ou augmentation de l’appétit / abreuvement</li>
+                                    <li>Ne se couche plus ou beaucoup moins</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading18">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse18" aria-expanded="false" aria-controls="flush-collapse18">
+                                Soutien post chirurgie ou traumatisme
+                            </button>
+                        </h2>
+                        <div id="flush-collapse18" class="accordion-collapse collapse" aria-labelledby="flush-heading18" data-bs-parent="#accordionFlush3">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Traumatismes divers : chute, chevauchement, vache écasillée </li>
+                                    <li>En soutien de n’importe quelle pathologie</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading19">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse19" aria-expanded="false" aria-controls="flush-collapse19">
+                                Les + chez les veaux
+                            </button>
+                        </h2>
+                        <div id="flush-collapse19" class="accordion-collapse collapse" aria-labelledby="flush-heading19" data-bs-parent="#accordionFlush3">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Mauvaise position de tête / encolure</li>
+                                    <li>Difficultés à tenir sur ses pattes</li>
+                                    <li>Difficultés à se lever</li>
+                                    <li>Difficultés à téter</li>
+                                    <li>Absence du réflexe de succion</li>
+                                    <li>Mauvaise posture</li>
+                                    <li>Défauts d’aplombs</li>
+                                    <li>Boiteries</li>
+                                    <li>Difficultés à prendre de l’état / de la masse musculaire</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 right-text  ">
+                <div class="right-img">
+                    <img src="{{ asset('img/motifs/mainimage.jpg') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

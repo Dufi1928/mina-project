@@ -1,0 +1,200 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello RaisonsController!{% endblock %}
+
+{% block body %}
+
+    <link rel="stylesheet" href="{{ asset('build/tarifs.css') }}">
+
+
+<div class="container">
+    <div id="header">
+            <h1>Services & Tarifs</h1>
+        </div>
+    <div class="row d-flex align-items-center">
+            <div class="col-lg-6 col-sm-12 align-content-center">
+                <div class="left-img">
+                    <img src="{{ asset('img/tarifs/Image 2.png') }}" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 align-content-center">
+                <div class="right-content">
+                    <p><span><i class="fa-sharp fa-solid fa-location-dot icon"></i></span> <strong>Secteur d’activité :</strong> Hauts-de-France & Belgique</p>
+                    <p><span><i class="fa-sharp fa-solid fa-location-dot icon1"></i></span> <strong>Secteur d’activité régulière : </strong> Région lilloise, Béthune, Arras, Cambrais, Le Cateau-Cambrésis, Douai, Valenciennes, St Quentin…</p>
+                    <p><strong> Urgences possibles </strong></p>
+                    <p> <strong>Des frais kilométriques </strong> supplémentaires peuvent s'appliquer en fonction de votre localisation, n'hésitez pas à vous regrouper pour diviser les frais</p>
+
+                </div>
+            </div>
+    </div>
+    <div id="header1" >
+        <h1>Consultations ostéopathiques à domicile</h1>
+    </div>
+    <div class="row d-flex align-items-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 align-content-center">
+            <div class="content">
+                <div class="content_item-inner">
+                    <div class="bg_img"><img src="{{ asset('img/motifs/mainimage.jpg') }}" alt=""></div>
+                    <div class="bg-font">
+                    </div>
+                    <div class="bg-font1">
+                    </div>
+                    <div class="bg-txt">
+                        <h2 class="title">
+                            Consultation équine
+                        </h2>
+                        <p class="price">
+                            80€
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 align-content-center">
+            <div class="content">
+                <div class="content_item-inner">
+                    <div class="bg_img"><img src="{{ asset('img/motifs/mainimage.jpg') }}" alt=""></div>
+                    <div class="bg-font">
+                    </div>
+                    <div class="bg-font1">
+                    </div>
+                    <div class="bg-txt">
+                        <h2 class="title">
+                            Consultation canine
+                        </h2>
+                        <p class="price">
+                            60€
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 align-content-center">
+            <div class="content">
+                <div class="content_item-inner">
+                    <div class="bg_img"><img src="{{ asset('img/motifs/mainimage.jpg') }}" alt=""></div>
+                    <div class="bg-font">
+                    </div>
+                    <div class="bg-font1">
+                    </div>
+                    <div class="bg-txt">
+                        <h2 class="title">
+                            Consultation féline
+                        </h2>
+                        <p class="price">
+                            50€
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 align-content-center">
+            <div class="content">
+                <div class="content_item-inner">
+                    <div class="bg_img"><img src="{{ asset('img/motifs/mainimage.jpg') }}" alt=""></div>
+                    <div class="bg-font">
+                    </div>
+                    <div class="bg-font1">
+                    </div>
+                    <div class="bg-txt bg-txt1">
+                        <h2 class="title">
+                            Consultation bovine
+                        </h2>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+
+                                    </a>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <div class="prices">
+                                            <p>Vache, génisse, broutard</p>
+                                            <b class="price-multiple ">70€</b>
+                                        </div>
+                                        <div class="prices">
+                                            <p>Toreau </p>
+                                            <b class="price-multiple ">80€</b></div>
+                                        <div class="prices">
+                                            <p>Veau </p>
+                                            <b class="price-multiple ">60€</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 align-content-center">
+            <div class="content">
+                <div class="content_item-inner">
+                    <div class="bg_img"><img src="{{ asset('img/motifs/mainimage.jpg') }}" alt=""></div>
+                    <div class="bg-font">
+                    </div>
+                    <div class="bg-font1">
+                    </div>
+                    <div class="bg-txt">
+                        <h2 class="title">
+                            Consultation NAC
+                        </h2>
+                        <p class="price">
+                            35€
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 align-content-center">
+            <div class="content">
+                <div class="content_item-inner">
+                    <div class="bg_img"><img src="{{ asset('img/motifs/mainimage.jpg') }}" alt=""></div>
+                    <div class="bg-font">
+                    </div>
+                    <div class="bg-font1">
+                    </div>
+                    <div class="bg-txt">
+                        <h2 class="title">
+                            Consultation caprine/ovine
+                        </h2>
+                        <p class="price">
+                            55€
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row last-description">
+        <div class="col-12 last-description-description">
+            <p>Autres espèces : sur demande </p>
+            <p>Pour les centres équestres/poneys clubs : tarifs avantageux, n’hésitez pas à me contacter</p>
+            <p>À partir de 5 animaux consultés sur un même lieu, tarif dégressif</p>
+            <p>Devis gratuits et sur demande</p>
+            <p>Paiement par espèces ou chèque </p>
+            <p>Conseils et suivis post-consultation</p>
+            <p>Pour toute autre demande ou information complémentaire, n’hésitez pas à me contacter</p>
+        </div>
+        <a href="{{ path('app_contact') }}" class="button7">Me contacter</a>
+    </div>
+
+
+
+</div>
+
+
+
+
+{% endblock %}

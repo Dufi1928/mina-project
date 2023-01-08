@@ -1,0 +1,425 @@
+h1{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  //Mains title start
+  #header {
+    width: 100%;
+    height: 50px;
+    margin: 50px 0 0 0;
+    position: relative;
+  }
+
+  #header:after {
+    content: '';
+    width: 100%;
+    border-bottom: solid 3px #443F3E;
+    position: absolute;
+    left: 0;
+    top: 31%;
+    z-index: 1;
+  }
+
+  h3 {
+    background-color: white; /* Same as the parents Background */
+    width: auto;
+    display: inline-block;
+    z-index: 3;
+    padding: 0 20px 0 0;
+    color: #443F3E ;
+    position: relative;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .content{
+    &_item-inner{
+      margin-bottom: 30px !important;
+      display: flex;
+      justify-content: center;
+      border-radius: 14px;
+      position: relative;
+      width: 100%;
+      z-index: 1;
+      overflow: hidden;
+      img{
+        width: 100%;
+      }
+      &-sercle{
+        border-radius: 50%;
+        background-color: #967E76;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        z-index: 3;
+        top: calc(50% - 40px) ;
+        left: calc(50% - 40px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+          width: 60%;
+        }
+      }
+      .modal-btn{
+        background-color: transparent !important;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        color: white;
+        cursor: pointer;
+      }
+      .subtitle{
+        display: flex;
+        align-items: baseline;
+        color: white;
+        padding-right: 5px;
+
+        p{
+          padding-right: 10px;
+        }
+        i{
+          font-size: 12px;
+        }
+      }
+      .subtitle:hover{
+        p{
+          color: gray;
+        }
+        i{
+          color: gray;
+        }
+      }
+      .bg-font{
+        height: 50%;
+        width: 100%;
+        background-color: #0a0a0a;
+        opacity: 50%;
+        z-index: 2;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        border-radius: 14px;
+
+      }
+      .bg-txt{
+        padding-top: 15px ;
+        height: 50%;
+        width: 100%;
+        z-index: 3;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        h2{
+          padding-top: 35px;
+          font-size:calc(10px + 6 * (100vw / 900));
+          width: 90%;
+          color: #fff;
+          text-align: center;
+          font-weight: 700;
+        }
+        p{
+          color: #fff;
+          margin-top: 12px;
+          text-align: center;
+          p{
+            font-size:calc(10px + 14 * (100vw / 900));
+          }
+        }
+      }
+    }
+  }
+}
+//First card description start
+.item_general {
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  min-height: 170px;
+  background-color: #967E76;
+  line-height: 1.2;
+  border-radius: 10px;
+  transition: all 0.3s ease 0s;
+  padding: 10px 10px 10px 5px;
+
+  &_description_txt{
+    vertical-align: bottom;
+    text-align: end;
+    height: 90%;
+  }
+  .icon {
+    float: right;
+    transition: all 0.5s ease 0s;
+    color: white;
+  }
+  .rotate{
+    rotate: 180deg ;
+  }
+  &_description{
+    width: 100%;
+    padding: 0 10px 0 10px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .more{
+      display: none;
+      text-align: left;
+      li{
+        font-size:calc(10px + 4  * (100vw / 1300)) ;
+        margin-left: 20px ;
+      }
+      color: white;
+
+    }
+    .more_txt{
+      display: inline;
+    }
+
+    h2{
+      color: #fff;
+      font-size:calc(8px + 12  * (100vw / 1300)) ;
+      font-weight: 700;
+      font-family: Roboto, sans-serif ;
+    }
+    p{
+      font-size:calc(10px + 4  * (100vw / 1300)) ;
+      font-family: Roboto, sans-serif ;
+    }
+}
+
+
+
+//First card description end
+
+
+  .item_general {
+    transition: all 2s ease 0s;
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 190px;
+    background-color: #967E76;
+    line-height: 1.2;
+    border-radius: 10px;
+    padding: 15px 15px 0 15px;
+    .icon{
+        font-size:calc(10px + 16  * (100vw / 1300));
+        color: white;
+        width: 100%;
+        text-align: right;
+    }
+    .rotate{
+      rotate: 180deg !important;
+    }
+
+    //header titel (change collor) end font size
+    &_description{
+      width: 100%;
+      padding: 15px ;
+      display: flex;
+      line-height: 1.5;
+      justify-content: center;
+      flex-direction: column;
+      font-family: Roboto, sans-serif;
+      h2{
+        color: #e0a800;
+      }
+      h2{
+        color: #fff;
+        padding-bottom: 1%;
+        font-weight: 700;
+      }
+      p{
+        text-align: justify;
+        color: #fff;
+      }
+    }
+  }
+}
+//Modal section start
+.modal{
+  &-content{
+    border: none;
+    border-radius:8px ;
+    text-align: justify;
+  }
+  &-header{
+    h5{
+      font-size:calc(10px + 12 * (100vw / 1300));
+      font-weight: bold;
+    }
+    width: 100%;
+    text-align: center;
+    border-radius: 8px 8px 0  0 ;
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    background-color: #967E76;
+    overflow: hidden;
+    color: #fff;
+  }
+  &-body{
+    padding: 5px 25px 5px 15px ;
+    margin:25px 25px 5px 25px ;
+    font-size:calc(10px + 4 * (100vw / 900));
+    ul{
+      margin-left: 15px;
+      text-align: left !important;
+    }
+  }
+}
+//Modal section end
+//Responcive  section start 1200px
+@media screen and (max-width:1200px){
+  .container{
+    .content{
+      &_item-inner{
+        .bg-txt{
+          height: 45%;
+          h2{
+            font-size:calc(10px + 16 * (100vw / 900));
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:992px){
+  .container{
+    .content{
+      &_item-inner{
+        margin: auto auto 20px;
+        .bg-txt{
+          height: 50%;
+          h2{
+            font-size:calc(10px + 12 * (100vw / 900));
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+//Responcive  section start 800px
+@media screen and (max-width:766px){
+  .container{
+    #header {
+      height: 50px;
+      margin: 30px 0;
+    }
+
+    #header:after {
+      border-bottom: solid 3px #443F3E;
+      top: 42%;
+    }
+
+    h3 {
+      font-size: 20px;
+      padding: 0 10px 0 0;
+      color: #443F3E ;
+      position: relative;
+      font-weight: bold;
+      margin: 0;
+    }
+    .item_general{
+      p{
+        text-align: justify;
+        color: #fff;
+        font-family: Roboto, sans-serif ;
+      }
+      &_description_txt{
+        color: white;
+        .more{
+          li{
+            margin-left: 20px !important;
+            font-size:calc(8px + 6  * (100vw / 1300)) ;
+          }
+        }
+      }
+    }
+    .content{
+      &_item-inner{
+        margin: auto auto 20px;
+        .bg-txt{
+          height: 45%;
+          h2{
+            font-size:calc(10px + 20 * (100vw / 700));
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width:500px){
+    .container{
+      #header {
+        font-size: 12px;
+        height: 20px;
+        margin: 10px 0;
+      }
+
+      #header:after {
+        border-bottom: solid 2px #443F3E;
+        top: 45%;
+      }
+
+      h3 {
+        font-size: 12px;
+        padding: 0 10px 0 0;
+        color: #443F3E ;
+        position: relative;
+        font-weight: bold;
+        margin: 0;
+      }
+      .item_general{
+        p{
+          text-align: justify;
+          color: #fff;
+          font-family: Roboto, sans-serif ;
+          font-size: calc(6px + (6 + 6 * 0.7) * ((100vw - 320px) / 900)) !important;
+        }
+        &_description_txt{
+          .more{
+            color: white;
+            li{
+              margin-left: 20px !important;
+              font-size: calc(6px + (6 + 6 * 0.7) * ((100vw - 320px) / 900)) !important;
+            }
+          }
+        }
+      }
+    }
+
+  .container{
+    .content{
+      &_item-inner{
+        margin: auto auto 20px;
+        .bg-txt{
+          height: 45%;
+          h2{
+            font-size:calc(10px + 12 * (100vw / 900));
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// Responcive section end
+
+
+

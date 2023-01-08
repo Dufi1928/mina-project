@@ -1,0 +1,75 @@
+{
+  "entrypoints": {
+    "app": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_core-js_modules_es_er-f24dd6.js",
+        "/build/app.js"
+      ]
+    },
+    "global": {
+      "js": [
+        "/build/runtime.js"
+      ],
+      "css": [
+        "/build/global.css"
+      ]
+    },
+    "description": {
+      "js": [
+        "/build/runtime.js"
+      ],
+      "css": [
+        "/build/description.css"
+      ]
+    },
+    "about": {
+      "js": [
+        "/build/runtime.js"
+      ],
+      "css": [
+        "/build/about.css"
+      ]
+    },
+    "seance": {
+      "js": [
+        "/build/runtime.js"
+      ],
+      "css": [
+        "/build/seance.css"
+      ]
+    },
+    "raisons": {
+      "js": [
+        "/build/runtime.js"
+      ],
+      "css": [
+        "/build/raisons.css"
+      ]
+    },
+    "motifs": {
+      "js": [
+        "/build/runtime.js"
+      ],
+      "css": [
+        "/build/motifs.css"
+      ]
+    },
+    "tarifs": {
+      "js": [
+        "/build/runtime.js"
+      ],
+      "css": [
+        "/build/tarifs.css"
+      ]
+    },
+    "contact": {
+      "js": [
+        "/build/runtime.js"
+      ],
+      "css": [
+        "/build/contact.css"
+      ]
+    }
+  }
+}

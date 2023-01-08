@@ -1,0 +1,170 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello SeanceController!{% endblock %}
+
+{% block body %}
+    <link rel="stylesheet" href="{{ asset('build/seance.css') }}" />
+
+
+
+    <div class="wrap">
+        <div class="item">
+                <div class="item_img">
+                    <img class="img_hiden" src="{{asset('img/seance/icon1.svg')}}" alt="">
+                </div>
+            <div class="item_description">
+                <h2>Déroulement d’une séance</h2>
+                <p>
+                    Avant tout, il est important de savoir que chaque séance est adaptée à l’animal c’est-à-dire à son environnement, ses capacités, son âge, sa sensibilité, son activité mais également à son propriétaire.
+                    Une séance dure environ 45 minutes mais peut parfois prendre 1 heure.
+                    <br><br>Voici les différentes étapes qui composent une séance d’ostéopathie :
+                </p>
+            </div>
+        </div>
+
+        <div class="item_general">
+                <div class="item_general_img">
+                    <img class="img_hiden" src="{{asset('img/seance/icon2.svg')}}" alt="">
+                </div>
+                <div class="item_general_description">
+                    <div class="item_general_description_title">
+                        <h2>Recueil de l’anamnèse & commémoratifs</h2>
+                    </div>
+                    <div class="item_general_description_txt">
+                        <p>
+                            Le praticien va poser plusieurs questions au propriétaire pour obtenir de plus amples informations afin de mieux connaitre et comprendre son animal.  Cela permettra d’obtenir des informations générales comme sa race, son âge, son activité, ses antécédents, son alimentation ou ses habitudes de vie.
+                            <span class="dots">...</span>
+                            <span class="more">Le motif de consultation sera également communiqué. Des informations plus détaillées et poussées pourront alors être apportées par rapport à ce dernier. Par exemple, s’il s’agit d’une boiterie : les circonstances d’apparition, son évolution dans le temps, si des examens complémentaires vétérinaires ont été réalisés, s’il y a eu des traitements, etc…
+                              L’environnement est pris en compte à chaque instant.
+                              Attention, il est important de préciser les prochaines échéances sportives (concours) avant la consultation afin d’adapter au mieux la séance et les manipulations et ainsi optimiser l’efficacité de la prise en charge et la récupération de votre animal. Il est toutefois préférable de consulter après cette échéance si elle arrive trop rapidement.
+
+                            </span>
+                        </p>
+                        <i  class="fa-solid fa-circle-chevron-down  icon btn-r "></i>
+                    </div>
+                </div>
+        </div>
+
+
+        <div class="item_general">
+            <div class="item_general_img">
+                <img  class="img_hiden" src="{{asset('img/seance/icon3.svg')}}" alt="">
+            </div>
+            <div class="item_general_description">
+                <div class="item_general_description_title">
+                    <h2>Analyse statique</h2>
+                </div>
+                <div class="item_general_description_txt">
+                    <p>
+                        Le praticien va analyser l’état général de l’animal ainsi que sa conformation : son comportement, son poil, ses aplombs, sa dentition, ses muqueuses, la répartition visuelle de ses masses musculaires ou graisseuses, sa respiration ou encore ses selles. Cette phase permet également de mettre en évidence des troubles posturaux ou des positions antalgiques que l’animal aurait mis en place.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item_general">
+            <div class="item_general_img">
+                <img class="img_hiden" src="{{asset('img/seance/icon4.svg')}}" alt="">
+            </div>
+            <div class="item_general_description">
+                <div class="item_general_description_title">
+                    <h2>Analyse palpatoire</h2>
+                </div>
+                <div class="item_general_description_txt">
+                    <p>
+                        Cette phase permet d’analyser l’état de santé de l’animal par une palpation soignée et
+                        méticuleuse sur l’ensemble de son corps. Elle va permettre d’identifier des modifications de
+                        texture, des zones d’hyper ou hypo thermiques, des contractures ou spasmes musculaires, des
+                        tensions, des zones sensibles.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item_general">
+            <div class="item_general_img">
+                <img class="img_hiden" src="{{asset('img/seance/icon5.svg')}}" alt="">
+            </div>
+            <div class="item_general_description">
+                <div class="item_general_description_title">
+                    <h2>Analyse dynamique</h2>
+                </div>
+                <div class="item_general_description_txt">
+                    <p>
+                        C’est une observation de la manière dont l’animal se déplace de manière générale aux trois allures sur plusieurs allers-retours, en ligne droite et sur différents types de sol. On peut pousser l’examen plus loin en demandant des exercices spécifiques comme des cercles, des huits de chiffres, des reculés ou un travail en longe. Cette évaluation de la locomotion permettra de se concentrer sur certaines zones en particulier, qui ressortent visuellement.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="item_general">
+            <div class="item_general_img">
+                <img class="img_hiden" src="{{asset('img/seance/icon6.svg')}}" alt="">
+            </div>
+            <div class="item_general_description">
+                <div class="item_general_description_title">
+                    <h2>Testing</h2>
+                </div>
+                <div class="item_general_description_txt">
+                    <p>
+                        Lors de cette étape, les zones préalablement identifiées vont être testées : articulations, organes, tissus (peau, muscles, fascias…), crâne, etc, afin d’identifier des restrictions de mobilité qui vont constituer ce qu’on appelle des dysfonctions ostéopathiques.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="item_general">
+            <div class="item_general_img">
+                <img class="img_hiden" src="{{asset('img/seance/icon7.svg')}}" alt="">
+            </div>
+            <div class="item_general_description">
+                <div class="item_general_description_title">
+                    <h2> Réflexion & diagnostic differentiel   </h2>
+                </div>
+                <div class="item_general_description_txt">
+                    <p>
+                        Grâce à toutes les étapes précédentes, le praticien va effectuer un schéma global de la manière dont l’animal fonctionne à l’instant présent (sa posture). C’est à ce moment qu’il décidera si l’animal ne présente pas de contre-indication ou s’il doit être référé à un autre professionnel.
+                        Si l’animal est apte à être pris en charge ostéopathiquement, il va ensuite identifier et hiérarchiser les dysfonctions ostéopathiques ainsi que leurs interactions afin de décider de la prise en charge la plus adaptée à l’amélioration de l’état de santé de l’animal.                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="item_general">
+            <div class="item_general_img">
+                <img class="img_hiden" src="{{asset('img/seance/icon8.svg')}}" alt="">
+            </div>
+            <div class="item_general_description">
+                <div class="item_general_description_title">
+                    <h2>Prise en charge</h2>
+                </div>
+                <div class="item_general_description_txt">
+                    <p>
+                        Le praticien va choisir les techniques les plus adaptées aux dysfonctions relevées précédemment. Il va rééquilibrer les différentes structures entre elles et restaurer l’intégrité physique et psychique de l’animal. Il va le soulager et éviter que des douleurs ou compensations ne s’installent trop dans le temps.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item_general">
+            <div class="item_general_img">
+                <img class="img_hiden" src="{{asset('img/seance/icon9.svg')}}" alt="">
+            </div>
+            <div class="item_general_description">
+                <div class="item_general_description_title">
+                    <h2>Retour sur la séance</h2>
+                </div>
+                <div class="item_general_description_txt">
+                    <p>
+                        Cette dernière phase clôture la consultation. Un retour et un bilan sur la séance sont réalisés. C’est également le moment pour le praticien d’informer le propriétaire de la conduite à tenir après la consultation et de répondre à ses questions. Des conseils sont apportés et un suivi peut-être mis en place avec l’accord du propriétaire pour optimiser les résultats, de même que des exercises ou une rééducation si elle s’avère nécessaire.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+{% endblock %}

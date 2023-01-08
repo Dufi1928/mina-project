@@ -1,0 +1,215 @@
+p{
+  padding:0;
+}
+.wrap{
+  max-width: 1300px;
+  width: 90%;
+  margin: auto ;
+  padding-top: 3%;
+  font-family: Roboto, sans-serif ;
+
+
+  //header Item + description start
+  .item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+      &_img{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &_description{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 80%;
+      line-height: 1.2;
+      h2{
+        font-size: 23px;
+        font-weight: 700;
+        font-family: Segoe UI;
+      }
+      p{
+        max-width: 95%;
+        text-align: justify;
+        font-family: Segoe UI;
+        margin:0;
+        font-size: 14px;
+      }
+    }
+  }
+  //header Item + description end
+
+  .item_general {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    min-height: 170px;
+    background-color: #967E76;
+    line-height: 1.2;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+    padding: 10px 10px 10px 5px;
+    &_description{
+      height: 100%;
+      width: 100%;
+    }
+    &_description_txt{
+      vertical-align: bottom;
+      text-align: end;
+      padding-top: 18px;
+      height: 90%;
+    }
+    .icon {
+      float: right;
+      font-size:calc(10px + 14  * (100vw / 1300));
+      transition: all 0.5s ease 0s;
+      color: white;
+
+    }
+    .rotate{
+      rotate: 180deg ;
+    }
+
+    &_img{
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+
+    &_description{
+      width: 100%;
+      padding: 0 10px 0 10px ;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+
+      h2{
+        color: #fff;
+        font-size: 23px;
+        font-weight: 700;
+        font-family: Segoe UI ;
+        padding-top: 15px;
+      }
+      p{
+        text-align: justify;
+        color: #fff;
+        font-family: Segoe UI ;
+        font-size: 14px;
+        .more{
+          display: none;
+        }
+
+        .more_txt{
+          display: inline;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:900px){
+  .item {
+    &_img{
+      img{
+        width: 70%;
+        height: 70%;
+      }
+    }
+    &_description{
+      padding: 5px ;
+      h2{
+        font-size:calc(10px + 13 * (100vw / 900))!important;
+      }
+      p{
+        font-size:calc(10px + 4 * (100vw / 900))!important;
+      }
+    }
+  }
+
+
+  .item_general {
+    min-height: 50px !important;
+    &_img{
+      img{
+        width: 70%;
+        height: 70%;
+      }
+    }
+    &_description{
+      h2{
+        font-size:calc(10px + 13 * (100vw / 900))!important;
+      }
+      p{
+        font-size:calc(10px + 4 * (100vw / 900))!important;
+      }
+    }
+  }
+}
+@media screen and (max-width:700px) {
+  .item_general {
+    &_img {
+      display: none !important;
+    }
+
+
+    .item_general {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 200px;
+      background-color: #967E76;
+      line-height: 1.2;
+      border-radius: 10px;
+      transition: all 0.3s ease 0s;
+      padding: 10px 10px 10px 5px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .item {
+      &_description {
+        width: 100%;
+
+        h2 {
+          font-size: calc(10px + (13 + 13 * 0.7) * ((100vw - 320px) / 900)) !important;
+        }
+
+        p {
+          font-size: calc(10px + (4 + 4 * 0.7) * ((100vw - 320px) / 900)) !important;
+        }
+      }
+
+    }
+
+
+    .item_general {
+      &_img {
+        display: none !important;
+      }
+
+      &_description {
+
+        h2 {
+          font-size: calc(8px + (15 + 15 * 0.7) * ((100vw - 320px) / 900)) !important;
+        }
+
+        p {
+          width: 100%;
+          font-size: calc(8px + (6 + 6 * 0.7) * ((100vw - 320px) / 900)) !important;
+        }
+      }
+    }
+  }
+}
+
+
