@@ -1,1 +1,1 @@
-$(document).ready(function () {    $('.icon').click(function (event) {        $('.more').toggleClass('more_txt');        $('.btn-r').toggleClass('rotate');        $('.dots').toggleClass('dots-hide');    });});
+$(document).ready(function () {    $('.icon').click(function (event) {        $('.more').toggleClass('more_txt');        $('.btn-r').toggleClass('rotate');        $('.dots').toggleClass('dots-hide');    });});

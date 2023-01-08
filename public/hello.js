@@ -1,13 +1,1 @@
-$(document).ready(function () {
-    $('.header_burger').click(function (event) {
-        $('.header_burger,.header_menu,.header_logo,.header_list').toggleClass('active');
-        $('body').toggleClass('lock');
-    });
-});
-
-
-
-
-
-
-
+$(document).ready(function () {    $('.header_burger').click(function (event) {        $('.header_burger,.header_menu,.header_logo,.sml-logo,.header_list').toggleClass('active');        $('body').toggleClass('lock');    });});jQuery(document).ready(function($) {    jQuery(window).scroll(function () {        if (jQuery(this).scrollTop() > 40) {            jQuery('.header_logo').addClass('small-logo');        } else {            jQuery('.header_logo').removeClass('small-logo');        }    });});
