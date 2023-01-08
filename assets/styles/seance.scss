@@ -1,13 +1,15 @@
 p{
   padding:0;
 }
+.dots-hide{
+  display: none;
+}
 .wrap{
   max-width: 1300px;
   width: 90%;
   margin: auto ;
   padding-top: 3%;
   font-family: Roboto, sans-serif ;
-
 
   //header Item + description start
   .item{
@@ -68,7 +70,6 @@ p{
       font-size:calc(10px + 14  * (100vw / 1300));
       transition: all 0.5s ease 0s;
       color: white;
-
     }
     .rotate{
       rotate: 180deg ;
