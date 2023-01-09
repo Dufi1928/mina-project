@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="964a0060-5aad-471c-9a2b-6fde5dae46eb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/seance/seance.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/seance/seance.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "preferences.editor",
     "settings.editor.splitter.proportion": "0.3139785",
     "vue.rearranger.settings.migration": "true"
   }
@@ -172,6 +172,7 @@
       <workItem from="1672906187149" duration="9000" />
       <workItem from="1673011807377" duration="1725000" />
       <workItem from="1673106758555" duration="22154000" />
+      <workItem from="1673290142654" duration="1305000" />
     </task>
     <servers />
   </component>
@@ -192,7 +193,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="origin/bug-fix" />
                       </list>
                     </value>
                   </entry>
@@ -208,6 +209,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/bug-fix" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="HEAD" />
